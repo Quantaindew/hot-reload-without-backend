@@ -8,8 +8,8 @@ function fetchScores() {
         .catch(error => console.error('Error fetching scores:', error));
 }
 
-// Fetch scores every 30 seconds
-setInterval(fetchScores, 30000);
+// Fetch scores every 5 seconds
+setInterval(fetchScores, 5000);
 
 // Initial fetch
 fetchScores();
