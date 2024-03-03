@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.scoreboard {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+.team {
+    margin: 0;
+    font-size: 24px;
+}
+.score {
+    margin: 0;
+    font-size: 32px;
+    color: #333;
+}
